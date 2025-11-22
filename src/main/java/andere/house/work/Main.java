@@ -13,7 +13,8 @@ public class Main {
         Bicycle newBicycle = new Bicycle();
         newBicycle.wheels=2;
         newBicycle.name="Stinger";
-//        Bicycle.Seat newSeat = newBicycle.new Seat(); че та ошибка типа убери статик , потому что статик классы не нуждаются в инстанс классе
+        Bicycle.Seat newSeat = new Bicycle.Seat();
+        newSeat.Signal();
 
 
 
